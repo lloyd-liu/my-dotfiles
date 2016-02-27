@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/xjliu/.aria2'
+let g:netrw_dirhist_2='/Users/xjliu/Documents/2015/projects/php/laravel/quickstart.basic/app/Http'
+let g:netrw_dirhist_3='/Users/xjliu/Documents/2015/projects/php/laravel/quickstart.basic/app'
+let g:netrw_dirhist_4='/Users/xjliu/.iterm2'
+let g:netrw_dirhist_5='/Users/xjliu'
+let g:netrw_dirhist_6='/Users'

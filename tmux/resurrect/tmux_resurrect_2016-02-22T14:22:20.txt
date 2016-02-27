@@ -1,0 +1,8 @@
+pane	2	1	:bash	1	:*	1	:/Users/xjliu/.tmux/plugins	1	bash	:
+pane	session 1	2	:laravel.quick-basic	0	:-	1	:/Users/xjliu/Documents/2015/projects/php/laravel/quickstart.basic	1	Vim	:/usr/local/Cellar/macvim/7.4-91/MacVim.app/Contents/MacOS/Vim
+pane	session 1	5	:homestead	1	:*	1	:/Users/xjliu/Documents/2015/projects/php/laravel/Homestead	1	bash	:
+pane	session 1	5	:homestead	1	:*	2	:/Users/xjliu/Documents/2015/projects/php/laravel/quickstart.basic	0	php	:php artisan tink
+window	2	1	1	:*	60af,181x45,0,0,10
+window	session 1	2	0	:-	c105,181x45,0,0,8
+window	session 1	5	1	:*	5c2f,181x45,0,0{90x45,0,0,6,90x45,91,0,7}
+state	2	session 1
