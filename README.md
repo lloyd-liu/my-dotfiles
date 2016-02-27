@@ -1,20 +1,13 @@
-![dotfiles](https://raw.githubusercontent.com/mscoutermarsh/dotfiles/master/autobot.jpg)
 
 dotfiles
 ===================
-![screenshot](https://github.com/mscoutermarsh/dotfiles/blob/master/screenshot.png)
-(Here's what my setup looks like. Vim/Tmux)
-
-## New to Vim?
-+ [Learning Vim in a Week](https://mikecoutermarsh.com/boston-vim-learning-vim-in-a-week/)
-+ [Upcase: The Art of Vim](https://upcase.com/vim)
 
 ## Installation
 
 Clone this repo (or your own fork!) to your **home** directory (`/Users/username`).
 ```
 $ cd ~
-$ git clone https://github.com/mscoutermarsh/dotfiles
+$ git clone https://github.com/lloyd-liu/dotfiles
 ```
 
 Install rcm
@@ -66,8 +59,3 @@ $ brew install tmux
 $ brew install reattach-to-user-namespace
 ```
 
----
-These are a heavily modified version of Thoughtbot's dotfiles. More detailed instructions are available here: http://github.com/thoughtbot/dotfiles.
-
-#### Contributing
-Did you have trouble installing this? Could I make the documentation better? Let me know [@mscccc](http://twitter.com/mscccc). Or please fork & create a pull request with your suggestions.
