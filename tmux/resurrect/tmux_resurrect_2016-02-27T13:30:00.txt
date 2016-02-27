@@ -1,0 +1,28 @@
+pane	0	1	:bash	1	:*	1	:/Users/xjliu	1	Vim	:/usr/local/Cellar/macvim/7.4-91/MacVim.app/Contents/MacOS/Vim testphp.php
+pane	0	2	:bash	0	:-	1	:/Users/xjliu	1	bash	:
+pane	1	1	:bash	1	:*	1	:/Users/xjliu	1	bash	:
+pane	2	1	:bash	1	:*	1	:/Users/xjliu/Documents/2015/projects/php/laravel/quickstart.basic	1	Vim	:/usr/local/Cellar/macvim/7.4-91/MacVim.app/Contents/MacOS/Vim pro_php/
+pane	2	2	:bash	0	:-	1	:/Users/xjliu	1	bash	:
+pane	4	1	:bash	1	:*	1	:/Users/xjliu	1	bash	:
+pane	5	1	:bash	0	:!-	1	:/Users/xjliu	1	Vim	:/usr/local/Cellar/macvim/7.4-91/MacVim.app/Contents/MacOS/Vim
+pane	5	2	:bash	1	:*	1	:/Users/xjliu	1	bash	:
+pane	6	1	:bash	1	:*	1	:/Users/xjliu	1	Vim	:/usr/local/Cellar/macvim/7.4-91/MacVim.app/Contents/MacOS/Vim .bashrc
+pane	7	1	:bash	1	:*	1	:/Users/xjliu	1	bash	:
+pane	8	1	:bash	1	:*	1	:/Users/xjliu	1	bash	:
+pane	session 1	2	:laravel.quick-basic	1	:*	1	:/Users/xjliu/Documents/2015/projects/php/laravel/quickstart.basic	1	bash	:
+pane	session 1	5	:homestead	0	:-	1	:/Users/xjliu/Documents/2015/projects/php/laravel/Homestead	1	bash	:
+pane	session 1	5	:homestead	0	:-	2	:/Users/xjliu/Documents/2015/projects/php/laravel/quickstart.basic	0	bash	:
+window	0	1	1	:*	c0fd,181x45,0,0,0
+window	0	2	0	:-	60af,181x45,0,0,10
+window	1	1	1	:*	bade,89x44,0,0,1
+window	2	1	1	:*	c0ff,181x45,0,0,2
+window	2	2	0	:-	c100,181x45,0,0,3
+window	4	1	1	:*	ac06,141x40,0,0,9
+window	5	1	0	:!-	58b0,181x41,0,0,11
+window	5	2	1	:*	58b1,181x41,0,0,12
+window	6	1	1	:*	58b2,181x41,0,0,13
+window	7	1	1	:*	58b3,181x41,0,0,14
+window	8	1	1	:*	60b4,181x45,0,0,15
+window	session 1	2	1	:*	60b5,181x45,0,0,16
+window	session 1	5	0	:-	3708,181x45,0,0{90x45,0,0,18,90x45,91,0,19}
+state	session 1	2

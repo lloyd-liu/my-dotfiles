@@ -245,8 +245,8 @@ nmap <c-r> :CtrlPBufTag<cr>
 nmap <d-e> :CtrlPMRUFiles<cr>
 nmap <d-p> :CtrlP<cr>
 map <d-1> :NERDTreeToggle<CR>
-
-
+"ctrl-a select all
+map <C-a> <esc>ggVG<CR>
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
