@@ -12,28 +12,13 @@ let $PATH='/usr/local/bin:' . $PATH
 let g:session_autoload = 'no'
 
 
-imap zz <Esc>
+imap aa <Esc>
 
 " Leader Mappings
 " map <Space> <leader>
 
 " Leader
 let mapleader = " "
-
-map <Leader>w :update<CR>
-map <Leader>q :qall<CR>
-map <Leader>gs :Gstatus<CR>
-map <Leader>gc :Gcommit<CR>
-map <Leader>gp :Gpush<CR>
-
-" Toggle nerdtree with F10
-map <Leader>1 :NERDTreeToggle<CR>
-map <F10> :NERDTreeToggle<CR>
-map <D-1> :NERDTreeToggle<CR>
-" Current file in nerdtree
-map <F9> :NERDTreeFind<CR>
-
-nmap <d-/> <gcc>
 
 " Reduce timeout after <ESC> is recvd. This is only a good idea on fast links.
 set ttimeout
@@ -180,8 +165,38 @@ function! InsertTabWrapper()
 endfunction
 inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
 
+
+"set the CtrP options
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/vendor/*,*/\.git/*
+let g:ctrlp_custom_ignore = 'tmp$\|\.git$\|\.hg$\|\.svn$\|.rvm$|.bundle$\|vendor'
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_match_window_bottom=1
+let g:ctrlp_max_height=25
+let g:ctrlp_match_window_reversed=0
+let g:ctrlp_mruf_max=500
+let g:ctrlp_open_multiple_files = 't'
+"let g:ctrlp_follow_symlinks=1
+let g:ctrlp_clear_cache_on_exit=0
 " Exclude Javascript files in :Rtags via rails.vim due to warnings when parsing
 "let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
+
+"============Key Mapping ============"
+"
+map <Leader>w :update<CR>
+map <Leader>q :qall<CR>
+map <Leader>gs :Gstatus<CR>
+map <Leader>gc :Gcommit<CR>
+map <Leader>gp :Gpush<CR>
+
+" Toggle nerdtree with F10
+map <Leader>1 :NERDTreeToggle<CR>
+map <F10> :NERDTreeToggle<CR>
+map <C-1> :NERDTreeToggle<CR>
+" Current file in nerdtree
+map <F9> :NERDTreeFind<CR>
+
+"comment line
+" nmap <M-><Bslash> <gcc>
 
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
@@ -227,26 +242,15 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-"set the CtrP options
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/vendor/*,*/\.git/*
-let g:ctrlp_custom_ignore = 'tmp$\|\.git$\|\.hg$\|\.svn$\|.rvm$|.bundle$\|vendor'
-let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_match_window_bottom=1
-let g:ctrlp_max_height=25
-let g:ctrlp_match_window_reversed=0
-let g:ctrlp_mruf_max=500
-let g:ctrlp_open_multiple_files = 't'
-"let g:ctrlp_follow_symlinks=1
-let g:ctrlp_clear_cache_on_exit=0
-
 ":mapclear
+nmap <c-t> :CtrlPBufTag<cr>
+nmap <c-s-e> :CtrlPMRUFiles<cr>
+nmap <c-p> :CtrlP<cr>
 
-nmap <c-r> :CtrlPBufTag<cr>
-nmap <d-e> :CtrlPMRUFiles<cr>
-nmap <d-p> :CtrlP<cr>
-map <d-1> :NERDTreeToggle<CR>
 "ctrl-a select all
 map <C-a> <esc>ggVG<CR>
+"
+"
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
