@@ -55,33 +55,33 @@
 
 Session/Windows/Tabs/Panes
 ==========================
-| **Session(Tmux)**  | prefix: ~<c-b~>                      |   |
+| **Session(Tmux)**  | prefix: <pre<</pre></code><code<</pre></code><c-b<</pre></code>                      |   |
 |--------------------|------------------------------------|---|
 |                New | tmux new -s session-name           |   |
-|             Rename | ~<c-b~>$                             |   |
+|             Rename | <pre<</pre></code><code<</pre></code><c-b<</pre></code>$                             |   |
 |              Close | tmux kill-session -t session-name  |   |
-|               List | ~<c-b~>s                             |   |
-|               Next | ~<c-b~>)                             |   |
-|               Prev | ~<c-b~>(                             |   |
-|           restore  | ~<c-b~>~<c-r~>                         |   |
-|               save | ~<c-b~>~<c-r~>                         |   |
+|               List | <pre<</pre></code><code<</pre></code><c-b<</pre></code>s                             |   |
+|               Next | <pre<</pre></code><code<</pre></code><c-b<</pre></code>)                             |   |
+|               Prev | <pre<</pre></code><code<</pre></code><c-b<</pre></code>(                             |   |
+|           restore  | <pre<</pre></code><code<</pre></code><c-b<</pre></code><pre<</pre></code><code<</pre></code><c-r<</pre></code>                         |   |
+|               save | <pre<</pre></code><code<</pre></code><c-b<</pre></code><pre<</pre></code><code<</pre></code><c-r<</pre></code>                         |   |
 |                    |                                    |   |
 | **Window/Tab**     | Tmux/Vim/Sublime/PhpStorm          |   |
-|                New | ~<c-b~>c                             |   |
-|             Rename | ~<c-b~>,                             |   |
-|              Close | ~<c-b~>&                             |   |
-|               List | ~<c-b~>w                             |   |
-|         Goto Win n | ~<c-b~>0-9                           |   |
-|               Next | ~<c-b~>]                             |   |
-|           Previous | ~<c-b~>[                             |   |
-| Copy Mode          | ~<c-b~>m                             |   |
+|                New | <pre<</pre></code><code<</pre></code><c-b<</pre></code>c                             |   |
+|             Rename | <pre<</pre></code><code<</pre></code><c-b<</pre></code>,                             |   |
+|              Close | <pre<</pre></code><code<</pre></code><c-b<</pre></code>&                             |   |
+|               List | <pre<</pre></code><code<</pre></code><c-b<</pre></code>w                             |   |
+|         Goto Win n | <pre<</pre></code><code<</pre></code><c-b<</pre></code>0-9                           |   |
+|               Next | <pre<</pre></code><code<</pre></code><c-b<</pre></code>]                             |   |
+|           Previous | <pre<</pre></code><code<</pre></code><c-b<</pre></code>[                             |   |
+| Copy Mode          | <pre<</pre></code><code<</pre></code><c-b<</pre></code>m                             |   |
 |                    |                                    |   |
-| **Pane**           |  Vim/Sublime/PhpStorm prefix:~<c-v~> |   |
-|       New H/V pane | ~<c-v~>/  or ~<c-v~>-                  |   |
-|              Close | ~<c-v~>x                             |   |
-|               List | ~<c-v~>q                             |   |
-|         Resize H/V | ~<c-v~>HJKL                          |   |
-|        Goto Pane n | ~<c-v~>0-9                           |   |
-| Go to U/D/L/R Pane | ~<c-v~>hjkl                          |   |
-| Move pane to left  | ~<c-v~>{                             |   |
-| Move pane to right | ~<c-v~>}                             |   |
+| **Pane**           |  Vim/Sublime/PhpStorm prefix:<pre<</pre></code><code<</pre></code><c-v<</pre></code> |   |
+|       New H/V pane | <pre<</pre></code><code<</pre></code><c-v<</pre></code>/  or <pre<</pre></code><code<</pre></code><c-v<</pre></code>-                  |   |
+|              Close | <pre<</pre></code><code<</pre></code><c-v<</pre></code>x                             |   |
+|               List | <pre<</pre></code><code<</pre></code><c-v<</pre></code>q                             |   |
+|         Resize H/V | <pre<</pre></code><code<</pre></code><c-v<</pre></code>HJKL                          |   |
+|        Goto Pane n | <pre<</pre></code><code<</pre></code><c-v<</pre></code>0-9                           |   |
+| Go to U/D/L/R Pane | <pre<</pre></code><code<</pre></code><c-v<</pre></code>hjkl                          |   |
+| Move pane to left  | <pre<</pre></code><code<</pre></code><c-v<</pre></code>{                             |   |
+| Move pane to right | <pre<</pre></code><code<</pre></code><c-v<</pre></code>}                             |   |
