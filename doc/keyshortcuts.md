@@ -55,33 +55,33 @@
 
 Session/Windows/Tabs/Panes
 ==========================
-| **Session(Tmux)**  | prefix: <c-b>                      |   |
+| **Session(Tmux)**  | prefix: ~<c-b~>                      |   |
 |--------------------|------------------------------------|---|
 |                New | tmux new -s session-name           |   |
-|             Rename | <c-b>$                             |   |
+|             Rename | ~<c-b~>$                             |   |
 |              Close | tmux kill-session -t session-name  |   |
-|               List | <c-b>s                             |   |
-|               Next | <c-b>)                             |   |
-|               Prev | <c-b>(                             |   |
-|           restore  | <c-b><c-r>                         |   |
-|               save | <c-b><c-r>                         |   |
+|               List | ~<c-b~>s                             |   |
+|               Next | ~<c-b~>)                             |   |
+|               Prev | ~<c-b~>(                             |   |
+|           restore  | ~<c-b~>~<c-r~>                         |   |
+|               save | ~<c-b~>~<c-r~>                         |   |
 |                    |                                    |   |
 | **Window/Tab**     | Tmux/Vim/Sublime/PhpStorm          |   |
-|                New | <c-b>c                             |   |
-|             Rename | <c-b>,                             |   |
-|              Close | <c-b>&                             |   |
-|               List | <c-b>w                             |   |
-|         Goto Win n | <c-b>0-9                           |   |
-|               Next | <c-b>]                             |   |
-|           Previous | <c-b>[                             |   |
-| Copy Mode          | <c-b>m                             |   |
+|                New | ~<c-b~>c                             |   |
+|             Rename | ~<c-b~>,                             |   |
+|              Close | ~<c-b~>&                             |   |
+|               List | ~<c-b~>w                             |   |
+|         Goto Win n | ~<c-b~>0-9                           |   |
+|               Next | ~<c-b~>]                             |   |
+|           Previous | ~<c-b~>[                             |   |
+| Copy Mode          | ~<c-b~>m                             |   |
 |                    |                                    |   |
-| **Pane**           |  Vim/Sublime/PhpStorm prefix:<c-v> |   |
-|       New H/V pane | <c-v>/  or <c-v>-                  |   |
-|              Close | <c-v>x                             |   |
-|               List | <c-v>q                             |   |
-|         Resize H/V | <c-v>HJKL                          |   |
-|        Goto Pane n | <c-v>0-9                           |   |
-| Go to U/D/L/R Pane | <c-v>hjkl                          |   |
-| Move pane to left  | <c-v>{                             |   |
-| Move pane to right | <c-v>}                             |   |
+| **Pane**           |  Vim/Sublime/PhpStorm prefix:~<c-v~> |   |
+|       New H/V pane | ~<c-v~>/  or ~<c-v~>-                  |   |
+|              Close | ~<c-v~>x                             |   |
+|               List | ~<c-v~>q                             |   |
+|         Resize H/V | ~<c-v~>HJKL                          |   |
+|        Goto Pane n | ~<c-v~>0-9                           |   |
+| Go to U/D/L/R Pane | ~<c-v~>hjkl                          |   |
+| Move pane to left  | ~<c-v~>{                             |   |
+| Move pane to right | ~<c-v~>}                             |   |
