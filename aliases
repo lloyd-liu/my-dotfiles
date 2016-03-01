@@ -4,7 +4,7 @@ alias tlf="tail -f"
 alias ln='ln -v'
 alias mkdir='mkdir -p'
 alias ...='../..'
-alias l='ls'
+# alias l='ls'
 alias ll='ls -al'
 alias lh='ls -Alh'
 alias e="$EDITOR"
@@ -12,10 +12,35 @@ alias v="$VISUAL"
 # because typing is hard
 alias bim="vim"
 
+
+alias ls="ls -GF"
+# alias ls="ls -GFlash"
+alias la="ls -a"
+alias l="clear"
+alias d="cd ~/dotfiles"
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
 # fix for passing params to rake tasks
 alias rake='noglob rake'
 
 # git
+
+alias ga="git add"
+
+alias gaa="git add ."
+
+# alias gc="git commit -m"
+alias gc="git add . && git commit -m"
+
+alias gp="git push origin"
+
+alias gs="git status"
+
+alias nah="git reset --hard;git clean -df;"
+
 alias g='git'
 alias gs='git status -sb'
 # copy the current branch name
