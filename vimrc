@@ -6,11 +6,9 @@ set lazyredraw
 
 let $PATH='/usr/local/bin:' . $PATH
 
-:au FocusLost * :wa "Save on focus lost
-
+au FocusLost * :wa "Save on focus lost
 " Sessions
 let g:session_autoload = 'no'
-
 
 imap aa <Esc>
 
@@ -216,6 +214,8 @@ let g:html_indent_tags = 'li\|p'
 :map <c-v>& <Esc>:tabclose<CR>
 :map <c-v>[ <Esc>:tabnext<CR>
 :map <c-v>] <Esc>:tabprevious<CR>
+:map <c-[> <Esc>:tabnext<CR>
+:map <c-]> <Esc>:tabprevious<CR>
 
 "###Tabs###
 " Open new split panes to right and bottom, which feels more natural
@@ -251,6 +251,36 @@ nmap <c-p> :CtrlP<cr>
 map <C-a> <esc>ggVG<CR>
 "
 "
+"cross editor copy and paste
+vmap <leader>y :w! /tmp/vitmp<CR>
+nmap <leader>p :r! cat /tmp/vitmp<CR>
+
+""""""""""""""Emmet""""""""""""""
+"  ShortCut Key : <c+y>,
+"-----Enable in different mode
+"let g:user_emmet_mode='n'    "only enable normal mode functions.
+"let g:user_emmet_mode='inv'  "enable all functions, which is equal to
+"let g:user_emmet_mode='a'    "enable all function in all mode.
+
+
+"------Enable just for html/css
+"let g:user_emmet_install_global = 0
+"autocmd FileType html,css EmmetInstall
+
+
+" Redefine trigger key
+"------To remap the default <C-Y> leader:
+"let g:user_emmet_leader_key='<C-Z>'
+
+
+"emmet custom snippet
+" let g:user_emmet_settings = webapi#json#decode(join(readfile(expand('~/dotfiles/snippets.json')), "\n"))
+
+
+"fix the prolbme when start the vim it prompt type command or exit issue
+set shortmess=a
+" set cmdheight=2
+
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local

@@ -1,46 +1,44 @@
 
-# Unix
+# Shell
 alias tlf="tail -f"
 alias ln='ln -v'
 alias mkdir='mkdir -p'
-alias ...='../..'
-# alias l='ls'
+alias l='ls -GF'
 alias ll='ls -al'
 alias lh='ls -Alh'
+alias ls="ls -GF"
+alias la="ls -a"
+alias c="clear"
+alias dot="cd ~/dotfiles"
+alias d="cd ~/Desktop"
+alias t4="cd /Users/xjliu/Documents/2015/projects/php/laravel/laravel.tricks" 
+alias t5="cd /Users/xjliu/Documents/2015/projects/php/laravel/tmd5.2" 
+alias hs="cd /Users/xjliu/Documents/2015/projects/php/laravel/Homestead" 
+alias h="cd ~"
+
+alias artisan="php artisan"
+
 alias e="$EDITOR"
 alias v="$VISUAL"
-# because typing is hard
-alias bim="vim"
 
-
-alias ls="ls -GF"
-# alias ls="ls -GFlash"
-alias la="ls -a"
-alias l="clear"
-alias d="cd ~/dotfiles"
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# fix for passing params to rake tasks
-alias rake='noglob rake'
+alias .4="cd ../../../.."
+alias .5="cd ../../../../.."
 
-# git
 
+alias gd='git log --oneline --graph'
 alias ga="git add"
-
 alias gaa="git add ."
-
 # alias gc="git commit -m"
-alias gc="git add . && git commit -m"
-
+alias gm="git add . && git commit . -m"
+alias gc="git checkout"
 alias gp="git push origin"
-
 alias gs="git status"
-
 alias nah="git reset --hard;git clean -df;"
-
 alias g='git'
 alias gs='git status -sb'
 # copy the current branch name

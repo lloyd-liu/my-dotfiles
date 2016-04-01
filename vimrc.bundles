@@ -48,5 +48,7 @@ Bundle 'jelera/vim-javascript-syntax'
 Bundle 'jsx/jsx.vim'
 Bundle 'terryma/vim-expand-region'
 
+Bundle 'vim-scripts/WebAPI.vim'
+Bundle 'vim-scripts/Emmet.vim'
 
 filetype on

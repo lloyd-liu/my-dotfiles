@@ -1,0 +1,10 @@
+pane	mysession	1	:bash	1	:*	1	:/Users/xjliu	1	bash	:
+pane	session 1	2	:laravel.quick-basic	0	:	1	:/Users/xjliu/Documents/2015/projects/php/laravel/quickstart.basic	1	bash	:
+pane	session 1	3	:tricks_project	0	:-	1	:/Users/xjliu/Documents/2015/projects/php/laravel/laravel.tricks	1	Vim	:/usr/local/Cellar/macvim/7.4-91/MacVim.app/Contents/MacOS/Vim
+pane	session 1	5	:homestead	1	:*	1	:/Users/xjliu	0	emacs	:emacs /var/folders/50/kjbwtc3n1fq7xt69x0c4y5y40000gn/T//bash-fc-1456793060
+pane	session 1	5	:homestead	1	:*	2	:/Users/xjliu/dotfiles	1	bash	:
+window	mysession	1	1	:*	d8b2,181x41,0,0,23
+window	session 1	2	0	:	60b5,181x45,0,0,16
+window	session 1	3	0	:-	e0b1,181x45,0,0,22
+window	session 1	5	1	:*	f707,181x45,0,0{90x45,0,0,19,90x45,91,0,24}
+state	session 1	mysession
